@@ -1,0 +1,1120 @@
+ls
+clear
+exit
+sudo apt install dmenu
+apt info suckless-tools
+sudo apt install suckless-tools
+clear
+exit
+ranger
+exit
+ls
+clear
+sudo apt update
+sudo apt upgrade
+clear
+flatpak list
+clear
+snap list
+clear
+ls
+clear
+ranger
+clear
+ls
+clear
+exit
+feh
+clear
+ls
+uname -a
+clear
+neofetch
+firefox
+chromium
+clear
+sudo apt update
+sudo snap refresh
+clear
+exit
+ls
+clear
+sudo apt update
+clear
+exit
+ls
+clear
+foot
+ranger
+clear
+cp ~/.config/i3/config ~/.config/sway/config
+cp ~/.config/i3/config -r ~/.config/sway/config
+ls
+cd .config
+ls
+mkdir sway
+ls
+cp ~/.config/i3/config -r ~/.config/sway/config
+ls
+cd sway/
+ls
+cat config 
+quit
+exit
+ls
+apt info polybar
+sudo apt install polybar
+apt info waybar
+sudo apt install waybar
+ranger
+exit
+ranger
+exit
+cat ~/.config/i3/config 
+exit
+sudo apt install rofi
+mpc
+apt info mpc
+clear
+ls
+cd .config/
+ls
+cd
+ls -a
+cat /etc/xdg/waybar/
+cd /etc/xdg/waybar/
+ls
+cat config 
+ls
+cd
+mkdir ~/.config/waybar/
+ls
+cd .config
+ls
+cp /etc/xdg/waybar/ ~/.config/waybar/
+cp /etc/xdg/waybar/ -r ~/.config/waybar/
+ls
+cd way
+cd waybar
+ls
+cd waybar
+ls
+cd
+cd .config/
+ls
+cd waybar/
+ls
+cp waybar/ -r .
+cp waybar/ -r 
+cp waybar/ -r ~/.config/waybar/
+cp waybar/ -r ~/.config/waybar
+cp waybar -r ~/.config/waybar
+clear
+ls
+cd
+cd .config/waybar/
+ls
+ls waybar/
+cp waybar/config config
+ls
+cp waybar/style.css style.css
+ls
+rm waybar/
+rm -r waybar/
+ls
+clear
+cd
+clear
+ranger
+exit
+apt info dex
+exit
+rofi
+rofi -show run
+exit
+whereis mediaplayer.py
+clear
+cd /usr/bin/python3
+cd /usr
+ls
+cd bin
+ls
+cd
+clear
+cd .config/sway/
+ls
+config
+nano config 
+exit
+ranger
+clear
+kill i3bar
+exit
+ranger
+ks
+ls
+clear
+man 5 sway
+ranger
+exit
+feh
+clear
+swaybg
+apt info swaybg
+apt info sway-backgrounds
+swaylock
+apt info swaylock
+sudo apt install swaylock
+swaylock
+man swaybg
+cd /usr/share/backgrounds/
+ls
+cd sway/
+ls
+ranger
+exit
+ls
+cd ./local
+cd .loca
+cd .local
+ls
+cd share
+ls
+cd backgrounds/
+ls
+exit
+ranger
+exit
+swaylock
+sudo apt install swayidle
+swayidle
+ranger
+vim create_lock_img.sh
+ranger
+swaylock
+swayidle
+exit
+swaylock
+ls
+rm create_lock_img.sh 
+ls
+clear
+ranger
+sudo apt update
+sudo snap refresh
+flatpak update
+exit
+cat .config/sway/config 
+swaylock
+ls
+clear
+apt info swaylock-effects
+clear
+exit
+ls
+exit
+ranger
+clear
+exit
+ls
+nautilus
+clear
+files
+nautilus
+exit
+ls
+cd .config
+ls
+cd waybar/
+ls
+cp config config.bak
+ls
+cat config.bak
+clear
+exit
+ls
+cd .local
+$HOME
+print $HOME
+echo $HOME
+ls
+cd share
+ls
+exit
+vim .local/share/lock-image.sh 
+swaylock --image ~/.local/share/backgrounds/wallpaper-1.jpg 
+clear
+ls
+cd .local
+ls
+cd share
+ls
+rm lock-image.sh 
+ls
+clear
+cd
+exit
+man swaylock
+convert ~/.local/share/backgrounds/wallpaper-1.jpg -filter Gaussian -blur 0x8 wallpaper-1blur.jpg
+ls
+sushi wallpaper-1blur.jpg 
+cp wallpaper-1blur.jpg ~/.local/share/backgrounds/
+ls
+cd ~/.local/share/backgrounds/
+ls
+exit
+vim mediaplayer.py
+exit
+ls
+cd .config/waybar/
+ls
+cp style.css style.css.bak
+cat style.css.bak 
+nano style.css
+exit
+ls
+clear
+sudo apt install python-pydbus
+apt search pydbus
+sudo apt install python3-pydbus
+apt info psutil
+apt search psutil
+clear
+cd .local
+cd bin
+ls
+mkdir
+mkdir bin
+cd bin
+ls
+touch waybar-media.py
+ls
+nano waybar-media.py 
+cd
+ranger
+ls
+cd .local
+ls
+rm bin
+rm -r bin
+ls
+clear
+cd ../.config/
+ls
+cd waybar/
+ls
+cp config.bak config
+ls
+cat config
+clear
+cd
+lear
+clear
+ls
+cd .local
+ls
+cd share
+ls
+touch lock-image.sh
+ls
+nano lock-image.sh 
+ls
+cd nano
+ls
+cd
+cd .config/sway/
+ls
+cp config config.bak
+ls
+nano confi
+ls
+nano config
+cd ..
+ls
+cd waybar/
+ls
+nano config
+cp config config.bak
+ls
+cat config.bak 
+nano config
+exit
+cd .config/sway/
+ls
+nano config
+exit
+ls
+clear
+exit
+cat style.css.bak 
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+exit
+ls
+clear
+exit
+ranger
+clear
+exit
+htop
+exit
+ls
+clear
+exit
+sudo apt update
+apt list --upgradable
+sudo apt upgrade
+sudo snap refresh
+flatpak update
+exit
+htop
+exit
+ls
+cd Software/
+s
+ls
+rm ds9.ubuntu22x86.8.5b1.tar.gz 
+ls
+ds9
+./ds9
+exit
+systemctl --user status xdg-desktop-portal.service
+ls
+ranger
+firefox
+irafcl
+exit
+irafcl
+clear
+xgterm
+exit
+Software/ds9 
+exit
+ls
+clear
+kitty
+apt info kitty
+clear
+exit
+fontconfig
+exit
+ls
+exit
+ls
+clear
+ls
+exit
+ls
+exit
+ls
+clear
+exit
+mkdir ~/.config/foot
+cp /etc/xdg/foot/foot.ini .config/foot/foot.ini
+man foot.ini
+which foot.ini
+whereis foot.ini
+/etc/
+cd /etc/
+ls
+cd xdg
+ls
+cd foot
+cd ..
+cd usr
+ls
+cdfoot
+cd foot
+ls
+clear
+cd
+clear
+cd /user
+cd /usr
+ls
+cd
+ls
+whereis foot.ini
+which foot
+cd /etc/
+ls
+cd sway
+ls
+cd ..
+grep foot
+cd foot
+cd xdg
+ls
+cd waybar
+ls
+cd ..
+clear
+foot
+cd
+ls
+nano .config/foot/foot.ini
+foot
+nano .config/foot/foot.ini
+foot
+nano .config/foot/foot.ini
+exit
+ls
+clear
+exit
+ls
+exit
+ls
+ls
+ls -a
+sudo apt update
+sudo snap refresh
+clear
+ls
+vim
+nano .config/foot/foot.ini
+exit
+ls
+exit
+ls
+exit
+ls
+sudo apt update
+vim
+emacs -nw
+nano .config/foot/foot.ini
+exit
+ls
+sudo apt update
+exit
+ls
+ranger
+cp /home/Shared/Xresources ~/.Xresources
+ls
+ls -a
+xrdp < .Xresources 
+xdrp < .Xresources 
+xdrc
+xrdp
+xrdc
+clear
+xrdp < .Xresources
+apt info xrdp
+exit
+ls
+sudo apt update
+exit
+ls
+exit
+ls
+clear
+xgterm
+exit
+neofetch
+clear
+neofetch
+exit
+ls
+which term
+which terminal
+which
+pwd
+ls
+clear
+neofetch
+clear
+neofetch
+clear
+neofetch
+exit
+xrdb < .Xresources 
+xterm
+ranger
+clear
+neofetch
+exit
+ls
+exit
+ls
+clear
+neofetch
+fortune
+exit
+ks
+ls
+ls
+neofetch
+fortune
+exit
+cd /home
+ls
+cd Shared
+ls
+cd jagat
+ls
+cd ..
+ls
+cd iraf-tutorials/
+zathura starlink-intro-iraf.ps.gz
+tar -xzvf starlink-intro-iraf.ps.gz
+ls
+clear
+exit
+siren
+clear
+exit
+nano .config/sway/config
+exit
+ls
+clear
+exit
+ls
+xgterm
+exit
+ls
+ranger
+clear
+cmus
+clear
+cd /home/Shared
+ls
+cmus
+clear
+cd
+clear
+cmus
+clear
+mocp
+apt info moc
+sudo apt install moc
+apt info moc-ffmpeg-plugin
+sudo apt install moc-ffmpeg-plugin
+clear
+moc
+mocp
+clear
+cmus
+exit
+history
+ls
+ls -a
+apt info siren
+ls
+clear
+exit
+ls
+clear
+exit
+ls
+cmus
+exit
+apt info playerctl
+sudo apt install playerct
+dpkg -l | grep playerctl
+sudo apt install playerctl
+light -U 10
+sudo light -U 10
+groups
+groups athene
+clear
+sudo visudo
+exit
+cd .config/waybar/
+ls
+cat config.bak
+clear
+ls
+cat config-new-icons 
+cat config-old 
+ls
+cat config.bak
+cat config-old
+ls
+cat config-new-icons 
+cat config-old
+cat config.bak
+cat style.css
+exit
+cd .config/waybar/
+ls
+nano style.css
+exit
+apt info light
+apt info brightnessctl
+sudo apt install light
+nano .config/sway/config
+exit
+ls
+cd .config
+ls
+cd waybar/
+ls
+cat config-old
+cat 'style (copy).css' 
+cat style.css.bak 
+clear
+ls
+nano style.css
+nano config
+exit
+ls
+cd .config/waybar/
+ls
+cat config
+nano config
+exit
+nano .config/waybar
+ls
+nano .config
+cd .config/waybar/
+ls
+nano style.css
+nano config
+nano style.css
+cat config-old
+exit
+cmus
+mocp
+clear
+ls
+mocp
+ls
+htop
+clear
+cmus
+clear
+exit
+nano .config/sway/config
+exit
+nano .config/sway/config
+exit
+sushi 7731877.jpg 
+exit
+history
+convert ~/.local/share/backgrounds/wallpaper-3.jpg -filter Gaussian -blur 0x8 wallpaper-3blur.jpg
+nano .config/sway/config
+exit
+xterm
+convert ~/.local/share/backgrounds/ubuntu.png -filter Gaussian -blur 16x8 ubuntu-blur.png
+convert ~/.local/share/backgrounds/wallpaper-u.jpg -filter Gaussian -blur 16x8 wallpaper-ublur.jpg
+exit
+ls
+cd .config/waybar/
+nano style.css
+exit
+nano .config/sway/config
+exit
+ls
+cd .config/gtk-3.0/
+ls
+cat settings.ini 
+nano settings.ini 
+cd
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+nano .profile 
+exit
+nano .profile 
+exit
+nano .config/sway/config
+exit
+nano .config/sway/config
+exit
+htop
+exit
+nano .profile
+cat .profile
+nano .config/sway/config
+exit
+nano .config/sway/config
+exit
+neofetch
+cd .config
+ls
+mkdir environment.d
+ls
+cat QtProject.conf 
+cd environment.d/
+ls
+nano qt.conf
+exit
+ls
+cd .config/
+ls
+cd rofi
+rofi man
+rofi windowcd
+rofi -show windowcd
+rofi -show filebrowser
+rofi -show combi
+rofi -show window
+rofi-theme-selector
+rofi
+rofi -show drun
+rofi-theme-selector
+ls
+cd rofi
+ls
+cat config.rasi 
+rofi-theme-selector
+nano config.rasi 
+exit
+ls
+clear
+exit
+htop
+clear
+neofetch
+clear
+exit
+ks
+ls
+clear
+exit
+ls
+neofetch
+ks
+ls
+clear
+ls
+clear
+exit
+neofetch
+clear
+exit
+ls
+exit
+ls
+exit
+ls
+exit
+neofetch
+clear
+htop
+exit
+neofetch
+exit
+la
+neofetch
+clear
+neofetch
+clear
+htop
+exit
+apt info pulsemixer
+sudo apt install pulsemixer
+exit
+grim screenshot.png
+apt info grim
+sudo apt install grim
+apt info wl-clipboard
+sudo apt install wl-clipboard
+sudo apt install wf-recorder
+clear
+grim
+ranger
+apt info slurp
+sudo apt install slurp
+grim -g "$(slurp)"
+ranger
+clear
+apt info gammastep
+sudo apt install gammastep
+gammastep-indicator
+gammastep -O 2200 2> /dev/null
+gammastep
+clear
+sudo apt --purge remove gammastep
+apt info gammastep
+apt info gammastep-indicator
+sudo apt --purge remove gammastep
+exit
+apt info clight
+apt info wlsunset
+apt info wl-gammarelay
+clear
+sudo apt install gammastep
+apt info randr
+gammastep -o
+gammastep
+gammastep -l 29.4:79.5
+gammastep -l 29.4:79.5 -t 5700:3600 -m randr -v
+gammastep -l 29.4:79.5 -t 5700:3600 -g 0.8 -m randr -v
+gammastep -O 3500K
+clear
+gammastep -v
+clear
+gammastep-indicator
+swaymsg -t get_outputs
+xeyes
+xeyes &
+lyx
+gammastep -h
+gammastep -x
+gammastep -v
+gammastep -O
+gammastep -o
+gammastep run
+exit
+apt info wezterm
+exit
+ls
+nano .config/sway/config
+nano .config/waybar/config
+nano .config/sway/config
+exit
+neofetch
+exit
+neofetch
+exit
+htop
+exit
+cmus
+clear
+neofetch
+clear
+exit
+sudo apt update
+clear
+apt info gammaray
+history
+apt info gammastep
+sudo apt --purge remove gammastep
+exit
+sushi 20230622_10h12m26s_grim.png 
+exit
+htop
+exit
+ls
+clear
+pip --version
+exit
+neofetch
+exit
+htop
+exit
+htop
+neofetch
+man neofetch
+exit
+cmus
+exit
+nano .config/sway/config
+exit
+nano .config/sway/config
+exit
+gammastep
+clear
+gammastep
+clear
+gammastep --version
+gammastep -h
+gammastep -v
+clear
+gammastep -v &
+exit
+ls
+clear
+ls
+htop
+gammastep -v
+clear
+ls
+clear
+gammastep -v &
+ls
+sudo apt update
+sudo snap refresh
+exit
+ranger
+exit
+ls
+zathura
+ls
+vim
+ls
+nvim
+apt info neovim
+sudo apt install neovim
+gammastep
+gammastep -v
+nano .config/sway/config
+ls
+exit
+htop
+exit
+gammastep-indicator
+sudo apt --purge remove gammastep
+apt info w3m
+sudo apt install w3m
+apt info w3m
+exit
+nano .config/sway/config
+exit
+ls
+neofetch
+sudo snap refresh
+exit
+cmus
+exit
+sudo apt update
+exit
+im2sixel
+apt info im2sixel
+apt info libsixel
+apt info libsixel-bin
+sudo apt install libsixel-bin
+clear
+img2sixel
+ls
+cd Pictures/
+ls
+img2sixel 20230622_10h12m26s_grim.png 
+clear
+man img2sixel
+img2sixel -e 20230622_10h12m26s_grim.png 
+clear
+cat 20230622_10h12m26s_grim.png 
+clear
+apt info hiptext
+apt search hiptext
+apt search caca
+apt info xine-console
+pdftotext
+clear
+apt info xpdf-utils
+apt search xpdf
+apt info flpsed
+clear
+apt info caca-utils
+clear
+caca
+caca-utils
+libcaca
+neercs
+apt search aalib
+apt info bb
+apt info ttv
+img2txt
+img2txt 20230622_10h12m26s_grim.png 
+img2sixel 20230622_10h12m26s_grim.png 
+clear
+cacaview 20230622_10h12m26s_grim.png 
+cacaview
+alib
+aalib
+apt info alib
+aalib
+bb
+apt info bb
+sudo apt install bb
+bb 20230622_10h12m26s_grim.png 
+sudo apt --purge remove bb
+sudo apt autoremove
+apt info lynx
+sudo apt cosway -l
+cowsay -l
+cowsay hello -f skeleton
+cowsay -f skeleton
+cowsay -f skeleton hello
+apt info lynx
+sudo apt install lynx
+apt info w3m
+sudo apt install w3m
+clear
+cd
+ls
+cd .local
+ls
+cd share/
+ls
+cd backgrounds/
+lss
+ls
+cacaview wallpaper-1.jpg
+img2txt wallpaper-1.jpg > wallpaper.txt
+ls
+cat wallpaper.txt
+clear
+rm wallpaper.txt 
+ls
+clear
+cd
+clear
+exit
+sudo apt --purge remove lynx
+sudo apt autoremove
+www-browser
+clear
+cat firefox.desktop
+ls
+cd .config
+ls
+cat mimeapps.list 
+nano mimeapps.list 
+touch hello.txt
+open hello.txt 
+edit hello.txt 
+rm hello.txt 
+ls
+clear
+nano mimeapps.list 
+ls
+cd
+cd /home/Shared/
+ls
+ranger
+clear
+snap interfaces firefox
+snap connections firefox
+apt search ranger
+apt info pdfarranger
+apt info python3-pikepdf
+clear
+exit
+mamba
+apt search mamba
+apt search conda
+exit
+Software/ds9
+ls
+ls -a
+cd Software/
+ls
+clear
+exit
+neofetch
+exit
+cmus
+exit
+sudo apt --purge remove saods9
+sudo apt autoremove
+exit
+ls
+exit
+ls
+exit
+ls
+neofetch
+htop
+exit
+ls
+neofetch
+exit
+htop
+exit
+ranger
+cd /tmp
+ls
+vim hello.txt
+exit
+ls
+neofetch
+htop
+clear
+reboot

@@ -1,0 +1,199 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Ubuntu, RobotoMono NerdFont, Roboto, Noto Sans CJK JP, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: #ffffff;
+}
+
+window > box {
+    /*margin: 0 0 0 16px;*/
+    background: #171717;/*#282a36;*/
+    border-bottom: 3px transparent;
+    color: white;
+}
+
+tooltip {
+  color: white;
+  background-color: #171717;
+  text-shadow: none;
+}
+
+#workspaces {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button {
+    padding: 0 3px;
+    margin: 0px;
+    min-width: 0px;
+    color: #ffffff;
+    background: transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+#workspaces button.focused {
+    padding: 0 3px;
+    border-bottom: 3px solid #ffffff;
+    border-top: 2px solid #171717;
+    border-radius: 3px;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid #ffb52a;
+}
+
+#window, #clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-disk, #custom-weather, #language, #tray, #mode, #idle_inhibitor, #custom-media {
+    padding: 0 2px; /* 2px */
+    margin: 0 5px;
+    background: transparent;
+    /* border-top: 2px solid transparent; */
+    color: #000000;
+}
+
+#window {
+   /*  margin: 0 240; */
+    color: #ffffff;
+}
+
+#clock {
+    background-color: #ff6e67;
+    /*border-bottom: 3px solid #ff6e67;*/
+    border-radius: 5px;
+}
+
+#battery {
+    background-color: #ffb52a;
+    border-radius: 5px;
+}
+
+#battery.charging {
+    background-color: #51e258;
+    animation-name: blink;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 5px;
+}
+
+@keyframes blink {
+    0%{
+        background-color: transparent;
+    }
+    100% {
+        background-color: #ffb52a;
+    }
+}
+
+@keyframes blinkLow {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: #ff6e67;
+    }
+}
+
+*#battery.critical:not(.charging) {
+    animation-name: blinkLow;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cpu {
+    background-color: #66cc99; /* #51e258 */
+    border-radius: 5px;
+}
+
+#memory {
+    background-color: #8ae8fd;
+    color: #000000;
+    border-radius: 5px;
+}
+
+#backlight {
+    background-color: #90b1b1;
+    border-radius: 5px;
+}
+
+#network {
+    background-color: #eb3e86;
+    border-radius: 5px;
+}
+
+#network.disconnected {
+    background-color: #ff676e;
+    border-radius: 5px;
+}
+
+#pulseaudio {
+    background-color: #3f87f6;
+    border-radius: 5px;
+}
+
+#pulseaudio.muted {
+    background-color: #bfbfbf;
+    border-radius: 5px;
+}
+
+#custom-disk {
+    background-color: #51e258;
+    border-radius: 5px;
+}
+
+#custom-weather {
+    background-color: #3f87f6;
+    border-radius: 5px;
+}
+
+#language {
+    background-color: #fbbc01;
+    border-radius: 5px;
+}
+
+#temperature {
+    background: #f0932b;
+    border-radius: 5px;
+}
+
+#temperature.critical {
+    background: #eb4d4b;
+    border-radius: 5px;
+}
+
+#tray {
+    background-color: #3f87f6;
+    border-radius: 5px;
+    /* border-bottom: 3px solid #3f87f6;  #ff676e; */
+}
+
+#idle_inhibitor {
+    background-color: #171717;
+    border-radius: 5px;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+    border-radius: 5px;
+}
+
+#custom-media {
+    background-color:  #51e258; /* #66cc99 */
+    /* color: #2a5c45; */
+    min-width: 100px;
+    border-radius: 5px;
+}

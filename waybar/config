@@ -1,0 +1,203 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    // "height":10,
+    //"width": 1350, // Waybar width
+    // Choose the order of the modules idle_inhibitor
+    "modules-left": ["sway/workspaces", "sway/mode", "wlr/taskbar", "sway/window"],
+    "modules-center": ["custom/media", "clock"],
+    // "modules-right": ["custom/weather", "cpu", "memory", "custom/disk", "battery", "network", "pulseaudio", "sway/language", "clock", "tray"],
+    "modules-right": ["cpu", "memory", "temperature", "network", "battery", "backlight", "pulseaudio", "tray"],
+     // Modules configuration
+    // "sway/workspaces": {
+    //     "disable-scroll": true,
+    //     "all-outputs": true,
+    //     "format": "{name}: {icon}",
+    //     "format-icons": {
+    //         "1": "",
+    //         "2": "",
+    //         "3": "",
+    //         "4": "",
+    //         "5": "",
+    //         "urgent": "",
+    //         "focused": "",
+    //         "default": ""
+    //     }
+    // },
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "一",
+            "2": "二",
+            "3": "三",
+            "4": "四",
+            "5": "五",
+            "6": "六",
+            "7": "七",
+            "8": "八",
+            "9": "九",
+            "10": "十"
+            //"1": "⠁",
+            //"2": "⠃",
+            //"3": "⠉",
+            //"4": "⠙",
+            //"5": "⠑",
+            //"6": "⠋",
+            //"7": "⠛",
+            //"8": "⠓",
+            //"9": "⠊",
+            //"10": "⠚"
+        }
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "sway/window": {
+        "format": "{}"
+        // "max-length": 100
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+       "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+    "tray": {
+        "icon-size": 14,
+        "spacing": 5
+    },
+    "clock": {
+        "tooltip-format": "{:%A %B %d %Y | %H:%M}",
+        "format": " {:%a %d %b  %H:%M}",
+        "format-alt": " {:%F  %H:%M:%S}",
+        //"timezones": [ "Athens" ],
+        //"max-length": 200
+        "interval": 1
+    },
+    "cpu": {
+        "format": "﬙ {usage}% ",
+        "on-click": "termite -e gotop"
+    },
+    "memory": {
+        "format": " {}% ",
+        "on-click": "termite -e gotop"
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        "format-critical": "{temperatureC}°C ",
+        "format": "{temperatureC}°C "
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", ""]
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        //"format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", "", "", "", "", "", ""]
+    },
+    "battery#bat2": {
+        "bat": "BAT2"
+    },
+    
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    
+  //  "network": {
+        // "interface": "wlp2s0", // (Optional) To force the use of this interface
+     //   "format-wifi": " {essid} ({signalStrength}%)",
+        //"format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+     //   "format-ethernet": " {ifname}",
+      //  "format-disconnected": "⚠ Disconnected",
+      //  "on-click": "termite --title wifi_term -e nmtui-connect",
+      //  "tooltip": false
+    },
+
+    "pulseaudio": {
+        "scroll-step": 1,
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-muted":"muted ",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "termite --title pulsemixer_term -e pulsemixer"
+    },
+
+    "custom/weather": {
+        "format": "{}",
+        //"max-length": 50,
+        //"escape": false,
+        //"exec": "sleep 10 && weather-simple thessaloniki", 
+        "exec": "weather-waybar.py thessaloniki",
+        "return-type": "json",
+        "interval": 3600,
+        "on-click": "termite -e weather thessaloniki",
+        "tooltip": true 
+    },
+
+    "custom/disk": {
+        "format": " {}",
+        "max-length": 80,
+        "escape": false,
+        // "exec": "$HOME/.local/bin/disk-stats.sh",
+        "interval": 60,
+        // "on-click": "pcmanfm-qt",
+        "tooltip": false
+    },
+
+    "sway/language": {
+        "format": " {}",
+        "max-length": 50
+    },
+    
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 14,
+        "icon-theme": "Yaru",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close"
+    },
+
+    "custom/media": {
+        "format": "{icon}{}",
+        "return-type": "json",
+        "format-icons": {
+        // "Playing": "♪ 🎜  ",
+           "Playing": "🎜  ",
+           "Paused": "▶ ",
+        },
+        "max-length":70,
+        // "exec": "playerctl -a metadata --format '{\"text\": \"{{playerName}}: {{artist}} - {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+        "exec": "playerctl -a metadata --format '{\"text\": \"{{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{artist}} - {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+        "on-click": "playerctl play-pause",
+        // "on-scroll-up": "playerctl next",
+        // "on-scroll-down": "playerctl previous"
+    }
+}
